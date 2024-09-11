@@ -1,0 +1,98 @@
+{
+  "name": "RayaRPARepository",
+  "projectId": "11573aaa-1462-4f1c-8074-7ae09bc6a151",
+  "description": "Raya Reused Processes",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Microsoft.ML.OnnxRuntime": "[1.19.0]",
+    "System.Drawing.Common": "[8.0.8]",
+    "System.Xml.ReaderWriter": "[4.3.1]",
+    "UiPath.ActiveDirectoryDomainServices.Activities": "[1.5.0]",
+    "UiPath.DataService.Activities": "[24.7.1]",
+    "UiPath.Excel.Activities": "[2.22.4]",
+    "UiPath.Mail.Activities": "[1.21.1]",
+    "UiPath.MicrosoftOffice365.Activities": "[2.6.25]",
+    "UiPath.System.Activities": "[24.10.0]",
+    "UiPath.Testing.Activities": "[23.10.0]",
+    "UiPath.UIAutomation.Activities": "[23.10.12]",
+    "UiPath.WebAPI.Activities": "[1.20.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "tenantName": "DefaultTenant",
+      "namespace": "RayaRPARepository",
+      "uniqueReference": "txWNfGpth/U49Kr3uMvC4hhtRpA0cr4IjsoHqRL+r14="
+    }
+  ],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\API\\APITemplate.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\Email\\LoopOverEmails.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\Email\\StartJobFromEmail.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\Email\\AddQueueItemFromMail.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\UI\\SignIn.xaml"
+      }
+    ],
+    "modernBehavior": false,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "25efc54c-48cd-4c2b-9792-7689ec7632d1",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
