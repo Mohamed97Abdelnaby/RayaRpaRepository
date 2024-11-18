@@ -1,0 +1,35 @@
+﻿{
+  "Metadata": {
+    "Id": "591b8bd0-8526-4eb8-92a3-51d43e86a53e",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "ChooseProcess",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "Hello, Please choose what process do you want me to help you with",
+        "widget": "choicesjs",
+        "tableView": true,
+        "multiple": true,
+        "customOptions": "{\"Extend Residency\"\n  \n}",
+        "key": "helloPleaseChooseWhatProcessDoYouWantMeToHelpYouWith",
+        "type": "select",
+        "input": true
+      },
+      {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+      }
+    ]
+  }
+}
