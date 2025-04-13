@@ -122,7 +122,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch PrepareSingleEntityDictionary" sap:VirtualizedContainerService.HintSize="652.8,1890.4" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch CreateUpdateEntities" sap:VirtualizedContainerService.HintSize="652.8,1890.4" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
         <Sequence DisplayName="CreateUpdateEntities" sap:VirtualizedContainerService.HintSize="616,1636" sap2010:WorkflowViewState.IdRef="Sequence_10">
           <sap:WorkflowViewStateService.ViewState>

@@ -75,7 +75,6 @@
       <AssemblyReference>UiPath.Citrix</AssemblyReference>
       <AssemblyReference>UiPath.Citrix.Activities</AssemblyReference>
       <AssemblyReference>RayaRPARepository.Core</AssemblyReference>
-      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="CreateVirtualMachine" sap:VirtualizedContainerService.HintSize="449.6,769.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
